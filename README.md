@@ -139,5 +139,65 @@ function area(height, width) {
     rectangle(14, 40);
 }
 area();
+
+
 ```
 <img src="images/ass14.png">
+
+### covert taka to U.S dolla, Canadian Dollar, Pound
+```
+<h3 style="text-align: center">- Currency Convertor -</h3>
+
+    <div class="form" style="width: 40%; margin: auto">
+        <label style="margin-top: 10px; display: block" for="">US Dollar :</label>
+        <input style="
+          width: 100%;
+          padding: 8px;
+          border-radius: 6px;
+          margin-top: 10px;
+          border: 1px solid gray;
+        " type="number" id="usDollar" />
+        <br />
+        <br /> Taka :
+        <input style="
+          width: 100%;
+          padding: 8px;
+          border-radius: 6px;
+          border: 1px solid gray;
+        " type="number" id="myBdt" />
+        <label style="margin-top: 10px; display: block" for="">Canadian Dollar :</label
+      >
+      <input
+        style="
+          width: 100%;
+          padding: 8px;
+          border-radius: 6px;
+          border: 1px solid gray;
+          margin-top: 10px;
+        "
+        type="number"
+        id="cDollar"
+      />
+      <br />
+      <label style="margin-top: 10px; display: block" for="">Pound:</label>
+        <input style="
+          width: 100%;
+          padding: 8px;
+          border-radius: 6px;
+          border: 1px solid gray;
+          margin-top: 10px;
+        " type="number" id="pound" />
+        <br />
+    </div>
+    
+    
+    
+const inserted = document.getElementById("usDollar");
+inserted.addEventListener("input", function(event) {
+    let converted = event.target.value;
+    let dollarValue = document.getElementById("myBdt");
+    let doll = (dollarValue.innerHTML = converted * 83.74);
+    console.log(doll);
+});
+```
+<img src="images/ass15.png">
