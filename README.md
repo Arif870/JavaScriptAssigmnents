@@ -43,3 +43,26 @@ for (let i = 1; i <= 500; i++) {
 }
 ```
 <img width=500 height=500 src="images/ass4.png">
+
+### Heading color change function
+```
+ <h1 id="heading">Choole color from dropdown</h1>
+    <select name="" id="color" style="width: 100px">
+      <option value="">- নির্বাচন করুন -</option>
+      <option value="red">লাল</option>
+      <option value="yellow">হলুদ</option>
+      <option value="green">সবুজ</option>
+      <option value="purple">পারপাল</option>
+    </select>
+    <button id="apply" onclick="myColor()" style="cursor: pointer">
+      Apply
+    </button>
+    
+    
+    function myColor() {
+    let choose = document.getElementById("color").value;
+    document.getElementById("heading").style.color = choose;
+}
+```
+<img width=500 src="images/ass5.png">
+<img width=500 src="images/ass6.png">
