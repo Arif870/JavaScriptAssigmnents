@@ -28,3 +28,5 @@ for (let i = 1; i <= 1000; i++) {
     console.log("value = " + i);
 }
 ```
+
+<img width=500 src="images/ass3.png">
