@@ -1,4 +1,4 @@
-# JavaScriptAssigmnents
+# JavaScript Assigmnents
 
 ### Enter your age and find your Category
 ```
