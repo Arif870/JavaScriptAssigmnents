@@ -29,4 +29,5 @@ for (let i = 1; i <= 1000; i++) {
 }
 ```
 
-<img width=500 src="images/ass3.png">
+
+<img width=500 height=500 src="images/ass3.png">
