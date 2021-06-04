@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Assignment 1</title>
+    <style>
+        body {
+            font-family: operator mono;
+            margin: 100px;
+        }
+    </style>
+</head>
+
+<body>
+    <h3>Please select your shape type</h3>
+    <select name="" id="shape" style="padding: 10px">
+      <option value="">- Select -</option>
+      <option value="square">Square</option>
+      <option value="rectangle">Rectangle</option>
+      <option value="circle">Circle</option>
+    </select> -->
+
+    <h1 id="heading">Choole color from dropdown</h1>
+    <select name="" id="color" style="width: 100px">
+      <option value="">- নির্বাচন করুন -</option>
+      <option value="red">লাল</option>
+      <option value="yellow">হলুদ</option>
+      <option value="green">সবুজ</option>
+      <option value="purple">পারপাল</option>
+    </select>
+    <button id="apply" onclick="myColor()" style="cursor: pointer">
+      Apply
+    </button>
+
+    <h3 style="text-align: center">- Currency Convertor -</h3>
+
+    <div class="form" style="width: 40%; margin: auto">
+        Taka :
+        <input style="
+          width: 100%;
+          padding: 8px;
+          border-radius: 6px;
+          border: 1px solid rgb(0, 160, 78);
+        " type="number" id="myBdt" />
+        <br />
+        <label style="margin-top: 10px; display: block" for="">US Dollar :</label>
+        <input style="
+          width: 100%;
+          padding: 8px;
+          border-radius: 6px;
+          margin-top: 10px;
+          border: 1px solid gray;
+        " type="number" id="usDollar" />
+        <br />
+        <label style="margin-top: 10px; display: block" for="">Canadian Dollar :</label
+      >
+      <input
+        style="
+          width: 100%;
+          padding: 8px;
+          border-radius: 6px;
+          border: 1px solid gray;
+          margin-top: 10px;
+        "
+        type="number"
+        id="cDollar"
+      />
+      <br />
+      <label style="margin-top: 10px; display: block" for="">Pound:</label>
+        <input style="
+          width: 100%;
+          padding: 8px;
+          border-radius: 6px;
+          border: 1px solid gray;
+          margin-top: 10px;
+        " type="number" id="pound" />
+        <br />
+    </div>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
