@@ -66,3 +66,20 @@ for (let i = 1; i <= 500; i++) {
 ```
 <img width=500 src="images/ass5.png">
 <img width=500 src="images/ass6.png">
+
+### Body mass index calculation
+```
+let weight = prompt("Please enter your weight in kg : ");
+let height = prompt("Please enter your height in meter : ");
+
+function bms(weight, height) {
+    let bmiHeight = height * height;
+    let bmss = "Your BMI is : " + weight / bmiHeight;
+    console.log(bmss);
+}
+
+bms(weight, height);
+```
+<img width=500 src="images/ass7.png">
+<img width=500 src="images/ass8.png">
+<img width=500 src="images/ass9.png">
