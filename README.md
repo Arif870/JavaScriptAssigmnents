@@ -97,3 +97,26 @@ myYear();
 ```
 <img width=500 src="images/ass10.png">
 <img width=500 src="images/ass11.png">
+
+### Grade and GPA calculation
+```
+let number = prompt("Please enter your NUmber : ");
+
+if (number >= 0 && number <= 33) {
+    console.log("Sorry, Your are failed");
+} else if (number >= 34 && number <= 50) {
+    console.log("Passed! Your grade is C ");
+} else if (number >= 51 && number <= 70) {
+    console.log("Passed! Your grade is C ");
+} else if (number >= 71 && number <= 80) {
+    console.log("Passed! Your grade is B ");
+} else if (number >= 81 && number <= 90) {
+    console.log("Passed! Your grade is A ");
+} else if (number >= 91 && number <= 100) {
+    console.log("Passed! Your grade is A+ ");
+} else {
+    console.log("Invalid number given");
+}
+```
+<img width=500 src="images/ass12.png">
+<img width=500 src="images/ass13.png">
