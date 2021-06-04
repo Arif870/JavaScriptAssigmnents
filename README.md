@@ -83,3 +83,17 @@ bms(weight, height);
 <img width=500 src="images/ass7.png">
 <img width=500 src="images/ass8.png">
 <img width=500 src="images/ass9.png">
+
+### age find out function
+```
+let birth = prompt("Please enter your Birth Year : ");
+let date = new Date();
+let year = date.getFullYear();
+
+function myYear() {
+    console.log("Your age is : " + (year - birth));
+}
+myYear();
+```
+<img width=500 src="images/ass10.png">
+<img width=500 src="images/ass11.png">
