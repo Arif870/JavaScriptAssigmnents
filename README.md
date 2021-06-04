@@ -16,8 +16,8 @@ function human(age) {
     }
 }
 ```
-<img width=500 src="images/ass1.png">
-<img width=500 src="images/ass2.png">
+<img src="images/ass1.png">
+<img src="images/ass2.png">
 
 ### For loop print 1 to 1000 but 700 to 900 will not be printed
 ```
@@ -30,7 +30,7 @@ for (let i = 1; i <= 1000; i++) {
 ```
 
 
-<img width=500 height=500 src="images/ass3.png">
+<img height=500 src="images/ass3.png">
 
 ### For loop print 1 to 500 and we will find these number between 200 to 300 divided by 7
 ```
@@ -42,7 +42,7 @@ for (let i = 1; i <= 500; i++) {
     }
 }
 ```
-<img width=500 height=500 src="images/ass4.png">
+<img height=500 src="images/ass4.png">
 
 ### Heading color change function
 ```
@@ -64,8 +64,8 @@ for (let i = 1; i <= 500; i++) {
     document.getElementById("heading").style.color = choose;
 }
 ```
-<img width=500 src="images/ass5.png">
-<img width=500 src="images/ass6.png">
+<img src="images/ass5.png">
+<img src="images/ass6.png">
 
 ### Body mass index calculation
 ```
@@ -80,9 +80,9 @@ function bms(weight, height) {
 
 bms(weight, height);
 ```
-<img width=500 src="images/ass7.png">
-<img width=500 src="images/ass8.png">
-<img width=500 src="images/ass9.png">
+<img src="images/ass7.png">
+<img src="images/ass8.png">
+<img src="images/ass9.png">
 
 ### age find out function
 ```
@@ -95,8 +95,8 @@ function myYear() {
 }
 myYear();
 ```
-<img width=500 src="images/ass10.png">
-<img width=500 src="images/ass11.png">
+<img src="images/ass10.png">
+<img src="images/ass11.png">
 
 ### Grade and GPA calculation
 ```
@@ -118,8 +118,8 @@ if (number >= 0 && number <= 33) {
     console.log("Invalid number given");
 }
 ```
-<img width=500 src="images/ass12.png">
-<img width=500 src="images/ass13.png">
+<img src="images/ass12.png">
+<img src="images/ass13.png">
 
 ### Square and rectangle area calculation
 
@@ -140,4 +140,4 @@ function area(height, width) {
 }
 area();
 ```
-<img width=500 src="images/ass14.png">
+<img src="images/ass14.png">
