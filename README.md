@@ -120,3 +120,31 @@ if (number >= 0 && number <= 33) {
 ```
 <img width=500 src="images/ass12.png">
 <img width=500 src="images/ass13.png">
+
+### Square and rectangle area calculation
+
+```
+function area(height, width) {
+    function square(width) {
+        console.log(
+            "height or width is " + width + " Squre area is : " + width * width
+        );
+    }
+    square(21);
+
+    function rectangle(height, width) {
+        console.log(
+            "height = " +
+            height +
+            " and  width = " +
+            width +
+            " rectangle area is : " +
+            height * width
+        );
+    }
+
+    rectangle(14, 40);
+}
+area();
+```
+<img width=500 src="images/ass14.png">
