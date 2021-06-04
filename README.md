@@ -31,3 +31,15 @@ for (let i = 1; i <= 1000; i++) {
 
 
 <img width=500 height=500 src="images/ass3.png">
+
+### For loop print 1 to 500 and we will find these number between 200 to 300 divided by 7
+```
+for (let i = 1; i <= 500; i++) {
+    if (i >= 200 && i <= 300) {
+        if (i % 7 === 0) {
+            console.log(i);
+        }
+    }
+}
+```
+<img width=500 height=500 src="images/ass4.png">
