@@ -133,14 +133,7 @@ function area(height, width) {
     square(21);
 
     function rectangle(height, width) {
-        console.log(
-            "height = " +
-            height +
-            " and  width = " +
-            width +
-            " rectangle area is : " +
-            height * width
-        );
+        console.log( "height = " + height + " and  width = " + width + " rectangle area is : " + height * width );
     }
 
     rectangle(14, 40);
