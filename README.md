@@ -17,4 +17,5 @@ function human(age) {
     }
 }
 ```
-
+<img src="images/ass1.png">
+<img src="images/ass2.png">
